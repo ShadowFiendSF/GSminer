@@ -1,0 +1,38 @@
+Package: GSminer
+Type: Package
+Title: Select gold standard including positive and negative genes pairs
+        based on the Gene Ontology
+Version: 0.99.2
+Authors@R: c(person(given = "Zhaohong", family = "Li",
+			    email = "lzh625107729@gmail.com",
+		    	role  = c("aut", "cre")),
+	    	 person(given = "Zefeng", family = "Wu",
+	            email = "wuzefeng2008@gmail.com",
+		 	    role  = "ctb", comment = "the paper's author")
+			    )
+Maintainer: Li Zhaohong <lzh625107729@gmail.com>
+Description: GSminer, an R package that can automatically select gold standard including positive 
+            and negative genes pairs based on the Gene Ontology information of a specific species.
+biocViews: GO, Annotation, Clustering
+Depends: R (>= 3.4), igraph, dnet, GO.db, apcluster
+Remotes: github::hfang-bristol/supraHex,
+        github::kasperdanielhansen/Rgraphviz
+Imports: utils, methods, Matrix, dplyr, foreach, AnnotationDbi,
+        magrittr, rlang
+Suggests: knitr, testthat
+ByteCompile: true
+VignetteBuilder: knitr
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: yes
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1
+Author: Li Zhaohong [aut, cre],
+  Wu Zefeng [ctb]
+Date: 2018-04-14
+Packaged: 2018-04-20 14:39:10 UTC; ryan
+Collate: 'AllClass.R' 'AllGenerics.R' 'GSminer-package.R'
+        'RcppExports.R' 'accessors.R' 'buildMapping.R' 'geneSim.R'
+        'getThreshold.R' 'loadBPoffsprings.R' 'output.R' 'removedup.R'
+        'utilities.R' 'zzz.R'

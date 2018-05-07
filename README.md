@@ -2,7 +2,7 @@
 ## Overview
 GSminer, an R package that can automatically select gold standard including positive and negative genes pairs 
 based on the Gene Ontology information of a specific species.
-## The schematic flowchart of GSminer <img src="vignettes/figure/flowchart.png" />
+## The schematic flowchart of GSminer <img src="vignettes/figures/flowchart.png" />
 
 
 
